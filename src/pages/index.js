@@ -95,7 +95,7 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>Octopus</h2>
         </header>
         <div className="content">
           <p>
@@ -107,9 +107,11 @@ const IndexPage = () => (
             consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
             dolor libero, feugiat magna tempus, sed et lorem adipiscing.
           </p>
-          <span className="image main">
-            <img src={pic2} alt="" />
-          </span>
+          <iframe src="https://embed.kumu.io/5547ed554d25b79607b5b433f9ecc07e" width="100%" height="50%" loading="lazy" frameborder="0"></iframe>
+					<ul class="actions">
+						<li><a href="https://kumu.io/clintjb/aerospace-sustainability" target="_blank" class="button primary large">Start Exploring</a></li>
+						<li><a href="#" class="button large">Learn More</a></li>
+					</ul>
         </div>
       </section>
 
